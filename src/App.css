@@ -1,0 +1,157 @@
+.lgnBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width:100%;
+  position:absolute;
+  top: 0;
+  background: linear-gradient(to right bottom,rgba(41,8,48,1) 0,rgba(82,65,143,1) 50%,rgba(114,183,227,1) 100%);
+}
+.pembLgn{
+  width: 30%;
+  height: 500px;
+  border: 1px solid gray;
+  border-radius: 15px;
+  box-shadow: 0px 20px 100px rgb(0, 0, 0);
+}
+.pembLgn img{
+  width: 100px;
+  height: 80px;
+  display: block;
+  margin: auto;
+}
+.pembLgn h1{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.forgot{
+  padding: 20px 40px;
+  cursor: pointer;
+}
+.forgot:hover {
+  text-decoration: underline;
+}
+.pembInput{
+  width: 80%;
+  margin: auto;
+  display: block;
+}
+.pembInput input{
+  height: 20px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid gray;
+  background: transparent;
+}
+.pembInput input:focus{
+  outline: none;
+}
+.pembLgn button{
+  width: 80%;
+  height: 30px;
+margin: auto;
+display: block;  
+border-radius: 10px;
+border: none;
+cursor: pointer;
+}
+.kiri{
+  width: 24%;
+  height: 100vh;
+  background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: top;
+ background-image:url(http://bit.ly/2gPLxZ4);
+  font-family: Arial, Helvetica;
+ letter-spacing: 0.02em;
+  font-weight: 400;
+ -webkit-font-smoothing: antialiased;
+}
+.kiriLogo{
+  display: flex;
+  width: 90%;
+  justify-content: center;
+}
+.kiriLogo img{
+  width: 100px;
+  height: 50px;
+}
+.kiriLogo p{
+  color: gainsboro;
+  padding: 13px 10px 0px 10px;
+}
+.kiri button{
+  width: 90%;
+  height: 50px;
+  margin: 4%;
+  border: none;
+  background-color: transparent;
+  color: gainsboro;
+  cursor: pointer;
+  text-align: left;
+  padding: 0;
+  border-radius: 5px;
+}
+.kiri button:hover{
+  background-color: rgb(219, 217, 217,0.3);
+  
+}
+.kiri svg{
+  margin:22px 10px 0px 10px
+}
+.dshJudul {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  /* border: 1px solid black; */
+}
+.dshJudul p{
+  font-size: 20px;
+  font-weight: bold;
+}
+.dshJudul svg{
+  margin-top: 3%;
+
+}
+.dshIsi{
+  background-color: rgb(255, 115, 0);
+  width: 95%;
+  height: 70px;
+  margin: auto;
+  border-radius: 5px ;
+  box-shadow: 10px 10px 10px rgb(92, 87, 87);
+}
+.dshIsi p{
+  padding: 2px 10px;
+  margin: 0;
+  color: gainsboro;
+}
+.employes{
+font-size: 20px;
+}
+.kanan{
+  width: 130vh;
+margin: 30px;
+
+}
+.beritaIsi {
+  width: 95%;
+}
+.beritaIsi input{
+  width: 100vh;
+  margin: 10px;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+.beritaIsi input {
+  outline: none;
+}
+.beritaIsi table{
+border: 1px solid black;
+display: flex;
+justify-content: space-between;
+width: 120vh;
+margin: auto;
+}
